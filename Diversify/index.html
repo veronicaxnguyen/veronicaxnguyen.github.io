@@ -1,1 +1,58 @@
-boom
+<!DOCTYPE HTML>
+<!--
+	Aerial by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
+-->
+<html>
+	<head>
+		<title>Diversify</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>Diversify.</h1>
+						<p>Courses &nbsp;&bull;&nbsp; Videos &nbsp;&bull;&nbsp; Articles</p>
+						<nav>
+							<ul>
+								<li><a href="Industrious/index.html" class="icon solid fa-arrow-right"><span class="label">Enter</span></a></li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<span class="copyright">&copy; Girls&nbsp;&nbsp;in Tech</span>
+					</footer>
+
+			</div>
+		</div>
+		<script>
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+
+<script>(function() {
+  if (navigator.userAgent.match(/(iPad|iPhone|iPod)/g) && window.self !== window.top) {
+    var body = document.body, f = function() {
+      body.style.width = window.top.innerWidth + 'px';
+      body.style.height = window.top.innerHeight + 'px';
+    };
+    window.addEventListener('load', f);
+    window.addEventListener('orientationchange', f);
+    window.addEventListener('resize', f);
+  }
+})();
+</script>
+</body>
+</html>
