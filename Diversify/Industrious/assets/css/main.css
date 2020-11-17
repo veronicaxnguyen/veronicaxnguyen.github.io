@@ -21,7 +21,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  background: #ffffff; }
+  background: #2b2b2b; }
   body.is-preload *, body.is-preload *:before, body.is-preload *:after {
     -moz-animation: none !important;
     -webkit-animation: none !important;
@@ -101,8 +101,8 @@ html {
       font-size: 11pt; } }
 
 body {
-  background-color: #ffffff;
-  color: #444444; }
+  background-color: #2b2b2b;
+  color: #ffffff; }
 
 body, input, select, textarea {
   font-family: "Raleway", Arial, Helvetica, sans-serif;
@@ -142,7 +142,7 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   margin: 0 0 1.5rem 0; }
   h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-    color: inherit;
+    color: #ffffff;
     text-decoration: none; }
 
 h1 {
@@ -790,7 +790,7 @@ table.alt tbody tr td {
       width: calc(100% + 1rem); } }
 
 .highlights .content {
-  background: #ffffff;
+  background: #2b2b2b;
   box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025); }
 
 /* Testimonials */
@@ -944,7 +944,7 @@ table.alt tbody tr td {
       width: calc(100% + 1rem); } }
 
 .testimonials .content {
-  background: #ffffff;
+  background: #2b2b2b;
   box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025); }
   .testimonials .content .credit strong {
     color: #a3b9c2; }
@@ -1946,10 +1946,10 @@ ul.icons {
   #banner table.alt tbody tr td {
     border-color: rgba(255, 255, 255, 0.25); }
   #banner .highlights .content {
-    background: #111111;
+    background: #2b2b2b;
     box-shadow: 0px 0px 4px 1px rgba(255, 255, 255, 0.025); }
   #banner .testimonials .content {
-    background: #111111;
+    background: #2b2b2b;
     box-shadow: 0px 0px 4px 1px rgba(255, 255, 255, 0.025); }
     #banner .testimonials .content .credit strong {
       color: #a3b9c2; }
@@ -2662,7 +2662,7 @@ body {
 
 /* Main */
 #main .content {
-  background: #ffffff;
+  background: #2b2b2b;
   border-radius: 4px;
   box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025);
   margin-bottom: 2rem;
