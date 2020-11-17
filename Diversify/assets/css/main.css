@@ -561,7 +561,7 @@ input, select, textarea {
 			font-size: 5.5em;
 			letter-spacing: -0.035em;
 			line-height: 1em;
-			color: #191919;
+			color: #ffffff;
 			font-family: Azonix;
 		}
 
@@ -569,7 +569,7 @@ input, select, textarea {
 			font-size: 1.25em;
 			margin: 0.75em 0 0.25em 0;
 			opacity: 0.75;
-			color: black;
+			color: #ffffff;
 		}
 
 		#header nav {
