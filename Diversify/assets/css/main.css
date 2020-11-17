@@ -1,7 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
-
+@font-face {
+   font-family: Azonix;
+   src: url(Azonix.otf);
+}
 /*
 	Aerial by Pixelarity
 	pixelarity.com | hello@pixelarity.com
@@ -559,7 +562,7 @@ input, select, textarea {
 			letter-spacing: -0.035em;
 			line-height: 1em;
 			color: #191919;
-			font-family: 'Josefin Sans', sans-serif;
+			font-family: Azonix;
 		}
 
 		#header p {
