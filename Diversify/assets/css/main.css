@@ -558,8 +558,8 @@ input, select, textarea {
 			font-size: 5.5em;
 			letter-spacing: -0.035em;
 			line-height: 1em;
-			color: black;
-			font-family: "Roboto";
+			color: #191919;
+			font-family: 'Roboto';
 		}
 
 		#header p {
